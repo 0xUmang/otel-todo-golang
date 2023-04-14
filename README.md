@@ -26,4 +26,5 @@ POST localhost:8888/v1/todo JSON data = {"Title":"Get Food","Description": "Get 
 GET localhost:8888/v1/todo
 
 Grafana is running on localhost:3000 
+After opening Grafana, the Explore button on the left pane would have Tempo as a data source listed, Selecting the Service Name as "Todo" from the drop down would show the API call traces 
 
